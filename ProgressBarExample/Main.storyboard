@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CustomProgressbar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="yRJ-Sl-0G9">
+                                <rect key="frame" x="0.0" y="44" width="414" height="540"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tRb-Oj-6ep" customClass="Progressbar" customModule="CustomProgressbar" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="q8I-xN-Cex"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PLG-Ji-dLq" customClass="Progressbar" customModule="CustomProgressbar" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="80" width="414" height="60"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="1GS-dO-T7z"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iXM-76-w4c" customClass="Progressbar" customModule="CustomProgressbar" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="160" width="414" height="60"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="Ijh-WM-UL1"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qO4-P3-7ml" customClass="Progressbar" customModule="CustomProgressbar" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="240" width="414" height="60"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="Jk5-cI-Ain"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sTe-7T-An0" customClass="Progressbar" customModule="CustomProgressbar" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="320" width="414" height="60"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="hNw-j4-CD9"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iDe-gb-gjJ" customClass="Progressbar" customModule="CustomProgressbar" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="400" width="414" height="60"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="WVh-kb-XB2"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zmh-6r-qvw" customClass="Progressbar" customModule="CustomProgressbar" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="480" width="414" height="60"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="uvM-a5-dff"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="yRJ-Sl-0G9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="0eq-vW-ksz"/>
+                            <constraint firstItem="yRJ-Sl-0G9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="4nE-6P-8M6"/>
+                            <constraint firstItem="yRJ-Sl-0G9" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="j2F-WV-EzJ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="progress" destination="tRb-Oj-6ep" id="kjA-u5-Dn7"/>
+                        <outlet property="progress1" destination="PLG-Ji-dLq" id="xaa-lV-NOE"/>
+                        <outlet property="progress2" destination="iXM-76-w4c" id="WM9-ka-fiA"/>
+                        <outlet property="progress3" destination="qO4-P3-7ml" id="WOH-FS-8BR"/>
+                        <outlet property="progress4" destination="sTe-7T-An0" id="12t-EC-S8n"/>
+                        <outlet property="progress5" destination="iDe-gb-gjJ" id="CAk-OJ-HLy"/>
+                        <outlet property="progress6" destination="zmh-6r-qvw" id="ci0-B7-5Hs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-64" y="129"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

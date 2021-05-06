@@ -10,6 +10,17 @@
 		D01FAFAA2644340900F9DF5D /* ProgressBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D01FAFA02644340800F9DF5D /* ProgressBar.framework */; };
 		D01FAFAF2644340900F9DF5D /* ProgressBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01FAFAE2644340900F9DF5D /* ProgressBarTests.swift */; };
 		D01FAFB12644340900F9DF5D /* ProgressBar.h in Headers */ = {isa = PBXBuildFile; fileRef = D01FAFA32644340800F9DF5D /* ProgressBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D01FAFC32644342800F9DF5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01FAFC22644342800F9DF5D /* AppDelegate.swift */; };
+		D01FAFC52644342800F9DF5D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01FAFC42644342800F9DF5D /* SceneDelegate.swift */; };
+		D01FAFCD2644342800F9DF5D /* ProgressBarExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D01FAFCB2644342800F9DF5D /* ProgressBarExample.xcdatamodeld */; };
+		D01FAFCF2644342A00F9DF5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D01FAFCE2644342A00F9DF5D /* Assets.xcassets */; };
+		D01FAFD22644342A00F9DF5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D01FAFD02644342A00F9DF5D /* LaunchScreen.storyboard */; };
+		D01FAFDD2644342A00F9DF5D /* ProgressBarExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01FAFDC2644342A00F9DF5D /* ProgressBarExampleTests.swift */; };
+		D01FAFE82644342A00F9DF5D /* ProgressBarExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01FAFE72644342A00F9DF5D /* ProgressBarExampleUITests.swift */; };
+		D01FB0012644375A00F9DF5D /* Progressbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01FAFFF2644375900F9DF5D /* Progressbar.swift */; };
+		D01FB0022644375A00F9DF5D /* Progressbar.xib in Resources */ = {isa = PBXBuildFile; fileRef = D01FB0002644375A00F9DF5D /* Progressbar.xib */; };
+		D01FB0132644378600F9DF5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D01FB0122644378500F9DF5D /* Main.storyboard */; };
+		D01FB01F2644379900F9DF5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01FB01E2644379900F9DF5D /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -20,6 +31,20 @@
 			remoteGlobalIDString = D01FAF9F2644340800F9DF5D;
 			remoteInfo = ProgressBar;
 		};
+		D01FAFD92644342A00F9DF5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D01FAF972644340800F9DF5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D01FAFBF2644342800F9DF5D;
+			remoteInfo = ProgressBarExample;
+		};
+		D01FAFE42644342A00F9DF5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D01FAF972644340800F9DF5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D01FAFBF2644342800F9DF5D;
+			remoteInfo = ProgressBarExample;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +54,23 @@
 		D01FAFA92644340900F9DF5D /* ProgressBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProgressBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D01FAFAE2644340900F9DF5D /* ProgressBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarTests.swift; sourceTree = "<group>"; };
 		D01FAFB02644340900F9DF5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D01FAFC02644342800F9DF5D /* ProgressBarExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgressBarExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D01FAFC22644342800F9DF5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D01FAFC42644342800F9DF5D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D01FAFCC2644342800F9DF5D /* ProgressBarExample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ProgressBarExample.xcdatamodel; sourceTree = "<group>"; };
+		D01FAFCE2644342A00F9DF5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D01FAFD12644342A00F9DF5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D01FAFD32644342A00F9DF5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D01FAFD82644342A00F9DF5D /* ProgressBarExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProgressBarExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D01FAFDC2644342A00F9DF5D /* ProgressBarExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarExampleTests.swift; sourceTree = "<group>"; };
+		D01FAFDE2644342A00F9DF5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D01FAFE32644342A00F9DF5D /* ProgressBarExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProgressBarExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D01FAFE72644342A00F9DF5D /* ProgressBarExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarExampleUITests.swift; sourceTree = "<group>"; };
+		D01FAFE92644342A00F9DF5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D01FAFFF2644375900F9DF5D /* Progressbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Progressbar.swift; path = ../../CustomProgressbar/CustomProgressbar/Progressbar.swift; sourceTree = "<group>"; };
+		D01FB0002644375A00F9DF5D /* Progressbar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Progressbar.xib; sourceTree = "<group>"; };
+		D01FB0122644378500F9DF5D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		D01FB01E2644379900F9DF5D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +89,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D01FAFBD2644342800F9DF5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D01FAFD52644342A00F9DF5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D01FAFE02644342A00F9DF5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +118,9 @@
 			children = (
 				D01FAFA22644340800F9DF5D /* ProgressBar */,
 				D01FAFAD2644340900F9DF5D /* ProgressBarTests */,
+				D01FAFC12644342800F9DF5D /* ProgressBarExample */,
+				D01FAFDB2644342A00F9DF5D /* ProgressBarExampleTests */,
+				D01FAFE62644342A00F9DF5D /* ProgressBarExampleUITests */,
 				D01FAFA12644340800F9DF5D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +130,9 @@
 			children = (
 				D01FAFA02644340800F9DF5D /* ProgressBar.framework */,
 				D01FAFA92644340900F9DF5D /* ProgressBarTests.xctest */,
+				D01FAFC02644342800F9DF5D /* ProgressBarExample.app */,
+				D01FAFD82644342A00F9DF5D /* ProgressBarExampleTests.xctest */,
+				D01FAFE32644342A00F9DF5D /* ProgressBarExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,6 +142,8 @@
 			children = (
 				D01FAFA32644340800F9DF5D /* ProgressBar.h */,
 				D01FAFA42644340800F9DF5D /* Info.plist */,
+				D01FAFFF2644375900F9DF5D /* Progressbar.swift */,
+				D01FB0002644375A00F9DF5D /* Progressbar.xib */,
 			);
 			path = ProgressBar;
 			sourceTree = "<group>";
@@ -84,6 +155,39 @@
 				D01FAFB02644340900F9DF5D /* Info.plist */,
 			);
 			path = ProgressBarTests;
+			sourceTree = "<group>";
+		};
+		D01FAFC12644342800F9DF5D /* ProgressBarExample */ = {
+			isa = PBXGroup;
+			children = (
+				D01FAFC22644342800F9DF5D /* AppDelegate.swift */,
+				D01FAFC42644342800F9DF5D /* SceneDelegate.swift */,
+				D01FB01E2644379900F9DF5D /* ViewController.swift */,
+				D01FB0122644378500F9DF5D /* Main.storyboard */,
+				D01FAFCE2644342A00F9DF5D /* Assets.xcassets */,
+				D01FAFD02644342A00F9DF5D /* LaunchScreen.storyboard */,
+				D01FAFD32644342A00F9DF5D /* Info.plist */,
+				D01FAFCB2644342800F9DF5D /* ProgressBarExample.xcdatamodeld */,
+			);
+			path = ProgressBarExample;
+			sourceTree = "<group>";
+		};
+		D01FAFDB2644342A00F9DF5D /* ProgressBarExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				D01FAFDC2644342A00F9DF5D /* ProgressBarExampleTests.swift */,
+				D01FAFDE2644342A00F9DF5D /* Info.plist */,
+			);
+			path = ProgressBarExampleTests;
+			sourceTree = "<group>";
+		};
+		D01FAFE62644342A00F9DF5D /* ProgressBarExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D01FAFE72644342A00F9DF5D /* ProgressBarExampleUITests.swift */,
+				D01FAFE92644342A00F9DF5D /* Info.plist */,
+			);
+			path = ProgressBarExampleUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +240,59 @@
 			productReference = D01FAFA92644340900F9DF5D /* ProgressBarTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		D01FAFBF2644342800F9DF5D /* ProgressBarExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D01FAFEA2644342A00F9DF5D /* Build configuration list for PBXNativeTarget "ProgressBarExample" */;
+			buildPhases = (
+				D01FAFBC2644342800F9DF5D /* Sources */,
+				D01FAFBD2644342800F9DF5D /* Frameworks */,
+				D01FAFBE2644342800F9DF5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProgressBarExample;
+			productName = ProgressBarExample;
+			productReference = D01FAFC02644342800F9DF5D /* ProgressBarExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D01FAFD72644342A00F9DF5D /* ProgressBarExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D01FAFED2644342A00F9DF5D /* Build configuration list for PBXNativeTarget "ProgressBarExampleTests" */;
+			buildPhases = (
+				D01FAFD42644342A00F9DF5D /* Sources */,
+				D01FAFD52644342A00F9DF5D /* Frameworks */,
+				D01FAFD62644342A00F9DF5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D01FAFDA2644342A00F9DF5D /* PBXTargetDependency */,
+			);
+			name = ProgressBarExampleTests;
+			productName = ProgressBarExampleTests;
+			productReference = D01FAFD82644342A00F9DF5D /* ProgressBarExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D01FAFE22644342A00F9DF5D /* ProgressBarExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D01FAFF02644342A00F9DF5D /* Build configuration list for PBXNativeTarget "ProgressBarExampleUITests" */;
+			buildPhases = (
+				D01FAFDF2644342A00F9DF5D /* Sources */,
+				D01FAFE02644342A00F9DF5D /* Frameworks */,
+				D01FAFE12644342A00F9DF5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D01FAFE52644342A00F9DF5D /* PBXTargetDependency */,
+			);
+			name = ProgressBarExampleUITests;
+			productName = ProgressBarExampleUITests;
+			productReference = D01FAFE32644342A00F9DF5D /* ProgressBarExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -147,9 +304,21 @@
 				TargetAttributes = {
 					D01FAF9F2644340800F9DF5D = {
 						CreatedOnToolsVersion = 12.2;
+						LastSwiftMigration = 1220;
 					};
 					D01FAFA82644340900F9DF5D = {
 						CreatedOnToolsVersion = 12.2;
+					};
+					D01FAFBF2644342800F9DF5D = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					D01FAFD72644342A00F9DF5D = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = D01FAFBF2644342800F9DF5D;
+					};
+					D01FAFE22644342A00F9DF5D = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = D01FAFBF2644342800F9DF5D;
 					};
 				};
 			};
@@ -168,6 +337,9 @@
 			targets = (
 				D01FAF9F2644340800F9DF5D /* ProgressBar */,
 				D01FAFA82644340900F9DF5D /* ProgressBarTests */,
+				D01FAFBF2644342800F9DF5D /* ProgressBarExample */,
+				D01FAFD72644342A00F9DF5D /* ProgressBarExampleTests */,
+				D01FAFE22644342A00F9DF5D /* ProgressBarExampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -177,10 +349,35 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D01FB0022644375A00F9DF5D /* Progressbar.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		D01FAFA72644340900F9DF5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D01FAFBE2644342800F9DF5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D01FB0132644378600F9DF5D /* Main.storyboard in Resources */,
+				D01FAFD22644342A00F9DF5D /* LaunchScreen.storyboard in Resources */,
+				D01FAFCF2644342A00F9DF5D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D01FAFD62644342A00F9DF5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D01FAFE12644342A00F9DF5D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -194,6 +391,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D01FB0012644375A00F9DF5D /* Progressbar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,6 +403,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D01FAFBC2644342800F9DF5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D01FAFCD2644342800F9DF5D /* ProgressBarExample.xcdatamodeld in Sources */,
+				D01FAFC32644342800F9DF5D /* AppDelegate.swift in Sources */,
+				D01FB01F2644379900F9DF5D /* ViewController.swift in Sources */,
+				D01FAFC52644342800F9DF5D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D01FAFD42644342A00F9DF5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D01FAFDD2644342A00F9DF5D /* ProgressBarExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D01FAFDF2644342A00F9DF5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D01FAFE82644342A00F9DF5D /* ProgressBarExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -213,7 +438,28 @@
 			target = D01FAF9F2644340800F9DF5D /* ProgressBar */;
 			targetProxy = D01FAFAB2644340900F9DF5D /* PBXContainerItemProxy */;
 		};
+		D01FAFDA2644342A00F9DF5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D01FAFBF2644342800F9DF5D /* ProgressBarExample */;
+			targetProxy = D01FAFD92644342A00F9DF5D /* PBXContainerItemProxy */;
+		};
+		D01FAFE52644342A00F9DF5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D01FAFBF2644342800F9DF5D /* ProgressBarExample */;
+			targetProxy = D01FAFE42644342A00F9DF5D /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D01FAFD02644342A00F9DF5D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D01FAFD12644342A00F9DF5D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D01FAFB22644340900F9DF5D /* Debug */ = {
@@ -341,6 +587,7 @@
 		D01FAFB52644340900F9DF5D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = VGZS9T43Q9;
@@ -357,6 +604,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.DigitalWellnez.ProgressBar;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -365,6 +613,7 @@
 		D01FAFB62644340900F9DF5D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = VGZS9T43Q9;
@@ -389,6 +638,7 @@
 		D01FAFB82644340900F9DF5D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VGZS9T43Q9;
 				INFOPLIST_FILE = ProgressBarTests/Info.plist;
@@ -407,6 +657,7 @@
 		D01FAFB92644340900F9DF5D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VGZS9T43Q9;
 				INFOPLIST_FILE = ProgressBarTests/Info.plist;
@@ -419,6 +670,128 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D01FAFEB2644342A00F9DF5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VGZS9T43Q9;
+				INFOPLIST_FILE = ProgressBarExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DigitalWellnez.ProgressBarExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D01FAFEC2644342A00F9DF5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VGZS9T43Q9;
+				INFOPLIST_FILE = ProgressBarExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DigitalWellnez.ProgressBarExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D01FAFEE2644342A00F9DF5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VGZS9T43Q9;
+				INFOPLIST_FILE = ProgressBarExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DigitalWellnez.ProgressBarExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProgressBarExample.app/ProgressBarExample";
+			};
+			name = Debug;
+		};
+		D01FAFEF2644342A00F9DF5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VGZS9T43Q9;
+				INFOPLIST_FILE = ProgressBarExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DigitalWellnez.ProgressBarExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProgressBarExample.app/ProgressBarExample";
+			};
+			name = Release;
+		};
+		D01FAFF12644342A00F9DF5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VGZS9T43Q9;
+				INFOPLIST_FILE = ProgressBarExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DigitalWellnez.ProgressBarExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProgressBarExample;
+			};
+			name = Debug;
+		};
+		D01FAFF22644342A00F9DF5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VGZS9T43Q9;
+				INFOPLIST_FILE = ProgressBarExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DigitalWellnez.ProgressBarExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProgressBarExample;
 			};
 			name = Release;
 		};
@@ -452,7 +825,47 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		D01FAFEA2644342A00F9DF5D /* Build configuration list for PBXNativeTarget "ProgressBarExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D01FAFEB2644342A00F9DF5D /* Debug */,
+				D01FAFEC2644342A00F9DF5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D01FAFED2644342A00F9DF5D /* Build configuration list for PBXNativeTarget "ProgressBarExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D01FAFEE2644342A00F9DF5D /* Debug */,
+				D01FAFEF2644342A00F9DF5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D01FAFF02644342A00F9DF5D /* Build configuration list for PBXNativeTarget "ProgressBarExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D01FAFF12644342A00F9DF5D /* Debug */,
+				D01FAFF22644342A00F9DF5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D01FAFCB2644342800F9DF5D /* ProgressBarExample.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D01FAFCC2644342800F9DF5D /* ProgressBarExample.xcdatamodel */,
+			);
+			currentVersion = D01FAFCC2644342800F9DF5D /* ProgressBarExample.xcdatamodel */;
+			path = ProgressBarExample.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = D01FAF972644340800F9DF5D /* Project object */;
 }
